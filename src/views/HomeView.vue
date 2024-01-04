@@ -4,16 +4,16 @@
     <table class="table-auto w-full p-2 mt-[30px]">
       <thead class="">
         <tr class="">
-          <th class="border-2 border-yellow-500 text-bold italic py-[10px]">Song</th>
-          <th class="border-2 border-yellow-500 text-bold italic">Artist</th>
-          <th class="border-2 border-yellow-500 text-bold italic">Year</th>
+          <th class="border-2 border-black text-[20px] font-bold italic py-[10px]">Song</th>
+          <th class="border-2 border-black text-[20px] font-bold italic">Artist</th>
+          <th class="border-2 border-black text-[20px] font-bold italic">Year</th>
         </tr>
       </thead>
       <tbody >
-        <tr v-for="item in 3" :key="item">
-          <td class="border-2 border-blue-500 italic px-[20px] py-[7px] cursor-pointer">The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-          <td class="border-2 border-blue-500 italic px-[20px] py-[7px] cursor-pointer">Malcolm Lockyer</td>
-          <td class="border-2 border-blue-500 italic px-[20px] py-[7px] cursor-pointer">1961</td>
+        <tr v-for="item in 10" :key="item" class="odd:bg-white-500 even:bg-gray-400 even:text-white hover:bg-blue-500 hover:text-white duration-[0.5s]">
+          <td class="border-2 border-black italic px-[20px] py-[7px] cursor-pointer">The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+          <td class="border-2 border-black italic px-[20px] py-[7px] cursor-pointer">Malcolm Lockyer</td>
+          <td class="border-2 border-black italic px-[20px] py-[7px] cursor-pointer">1961</td>
         </tr>
       
       </tbody>
@@ -22,7 +22,7 @@
       <div
         v-for="item in 5"
         :key="item"
-        class="cursor-pointer text-gray-800 flex-auto min-h-48 w-64 rounded-[20px] gap-4 border-2 border-blue-600 p-2 duration-300  hover:translate-y-[10px]"
+        class="cursor-pointer text-gray-800 flex-auto min-h-48 w-64 rounded-[20px] gap-4 border-2 border-blue-600 p-2 duration-300  hover:translate-y-[10px] "
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
         ducimus fugiat veniam, et mollitia ad itaque tenetur culpa, hic
