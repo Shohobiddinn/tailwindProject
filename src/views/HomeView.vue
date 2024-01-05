@@ -1,28 +1,28 @@
 
 <template>
-  <div class="px-4">
-    <table class="table-auto w-full p-2 mt-[30px]">
+  <div class="px-4 mb-[50px] flex flex-col justify-center items-center">
+    <table class="table-auto w-9/12 p-2 mt-[30px] rounded-[20px]">
       <thead class="">
-        <tr class="">
-          <th class="border-2 border-black text-[20px] font-bold italic py-[10px]">Song</th>
-          <th class="border-2 border-black text-[20px] font-bold italic">Artist</th>
-          <th class="border-2 border-black text-[20px] font-bold italic">Year</th>
+        <tr class="*:border-2 *:border-black">
+          <th class=" text-[20px] font-bold italic py-[10px]">Song</th>
+          <th class=" text-[20px] font-bold italic">Artist</th>
+          <th class=" text-[20px] font-bold italic">Year</th>
         </tr>
       </thead>
-      <tbody >
-        <tr v-for="item in 10" :key="item" class="odd:bg-white-500 even:bg-gray-400 even:text-white hover:bg-blue-500 hover:text-white duration-[0.5s]">
-          <td class="border-2 border-black italic px-[20px] py-[7px] cursor-pointer">The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-          <td class="border-2 border-black italic px-[20px] py-[7px] cursor-pointer">Malcolm Lockyer</td>
-          <td class="border-2 border-black italic px-[20px] py-[7px] cursor-pointer">1961</td>
+      <tbody class="" >
+        <tr v-for="item in 5" :key="item" class="odd:bg-white-500 even:bg-blue-500 even:text-white hover:bg-gray-500 hover:text-white duration-[0.5s] *:border-2 *:border-black">
+          <td class="italic px-[20px] py-[7px] cursor-pointer">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
+          <td class="italic px-[20px] py-[7px] cursor-pointer">Lorem ipsum </td>
+          <td class="italic px-[20px] py-[7px] cursor-pointer">1992</td>
         </tr>
       
       </tbody>
     </table>
-    <div class="flex flex-wrap mt-10 justify-center gap-[20px]">
+    <div class="flex flex-wrap mt-10 justify-center gap-[20px] w-9/12">
       <div
         v-for="item in 5"
         :key="item"
-        class="cursor-pointer text-gray-800 flex-auto min-h-48 w-64 rounded-[20px] gap-4 border-2 border-blue-600 p-2 duration-300  hover:translate-y-[10px] "
+        class="cursor-pointer text-gray-800 flex-auto min-h-48 w-64 rounded-[20px] gap-4 border-2 border-blue-600 p-2 duration-300  hover:-translate-y-[10px] "
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
         ducimus fugiat veniam, et mollitia ad itaque tenetur culpa, hic
@@ -30,7 +30,7 @@
         voluptates nemo!
       </div>
     </div>
-    <div class="images flex justify-center flex-wrap mt-10 gap-[20px]" >
+    <div class="images flex justify-center flex-wrap mt-10 gap-[20px] w-9/12" >
       <div
         class="image flex-auto w-[400px] max-h-[200px]"
         v-for="item in 5"
