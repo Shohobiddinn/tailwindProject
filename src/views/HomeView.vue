@@ -1,7 +1,7 @@
 
 <template>
   <div class="px-4 mb-[50px] flex flex-col justify-center items-center">
-    <table class="table-auto w-9/12 p-2 mt-[30px] rounded-[20px]">
+    <table class="table-autop-2 mt-[30px] rounded-[20px] sm:w-full">
       <thead class="">
         <tr class="*:border-2 *:border-black">
           <th class=" text-[20px] font-bold italic py-[10px]">Song</th>
@@ -18,7 +18,7 @@
       
       </tbody>
     </table>
-    <div class="flex flex-wrap mt-10 justify-center gap-[20px] w-9/12">
+    <div class="flex flex-wrap mt-10 justify-center gap-[20px] sm:w-full">
       <div
         v-for="item in 5"
         :key="item"
@@ -30,7 +30,7 @@
         voluptates nemo!
       </div>
     </div>
-    <div class="images flex justify-center flex-wrap mt-10 gap-[20px] w-9/12" >
+    <div class="images flex justify-center flex-wrap mt-10 gap-[20px] sm:w-full" >
       <div
         class="image flex-auto w-[400px] max-h-[200px]"
         v-for="item in 5"

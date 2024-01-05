@@ -51,7 +51,7 @@ const inactiveClass = ref(
       </div>
 
       <nav class="mt-10">
-        <router-link
+        <!-- <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
           :class="[$route.name === 'Dashboard' ? activeClass : inactiveClass]"
           to="/dashboard"
@@ -73,7 +73,7 @@ const inactiveClass = ref(
           </svg>
 
           <span class="mx-4">Dashboard</span>
-        </router-link>
+        </router-link> -->
 
         <!-- <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
@@ -131,11 +131,11 @@ const inactiveClass = ref(
               fill="currentColor"
             />
           </svg>
-
-          <span class="mx-4">home</span>
+ 
+          <span class="mx-4 capitalize">home</span>
         </router-link>
 
-        <router-link
+        <!-- <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
           :class="[$route.name === 'Forms' ? activeClass : inactiveClass]"
           to="/forms"
@@ -152,9 +152,9 @@ const inactiveClass = ref(
           </svg>
 
           <span class="mx-4">Forms</span>
-        </router-link>
+        </router-link> -->
 
-        <router-link
+        <!-- <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
           :class="[$route.name === 'Cards' ? activeClass : inactiveClass]"
           to="/cards"
@@ -174,7 +174,7 @@ const inactiveClass = ref(
           </svg>
 
           <span class="mx-4">Cards</span>
-        </router-link>
+        </router-link> -->
         <!-- 
         <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
@@ -190,7 +190,7 @@ const inactiveClass = ref(
           <span class="mx-4">Modal</span>
         </router-link> -->
 
-        <router-link
+        <!-- <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
           :class="[$route.name === 'Blank' ? activeClass : inactiveClass]"
           to="/blank"
@@ -202,7 +202,7 @@ const inactiveClass = ref(
           </svg>
 
           <span class="mx-4">Blank</span>
-        </router-link>
+        </router-link> -->
       </nav>
     </div>
   </div>
