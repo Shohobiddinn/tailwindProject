@@ -1,7 +1,7 @@
 
 <template>
   <div class="px-4 mb-[50px] flex flex-col justify-center items-center">
-    <table class="table-autop-2 mt-[30px] rounded-[20px] sm:w-full">
+    <table class="table-autop-2 mt-[30px] rounded-[20px] sm:w-full *:dark:text-white">
       <thead class="">
         <tr class="*:border-2 *:border-black">
           <th class=" text-[20px] font-bold italic py-[10px]">Song</th>
@@ -10,7 +10,7 @@
         </tr>
       </thead>
       <tbody class="" >
-        <tr v-for="item in 5" :key="item" class="odd:bg-white-500 even:bg-blue-500 even:text-white hover:bg-gray-500 hover:text-white duration-[0.5s] *:border-2 *:border-black">
+        <tr v-for="item in 5" :key="item" class="odd:bg-white-500 even:bg-blue-500 even:text-white hover:bg-gray-500 hover:text-white duration-[0.5s] *:border-2 *:border-black *:dark:text-white">
           <td class="italic px-[20px] py-[7px] cursor-pointer">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
           <td class="italic px-[20px] py-[7px] cursor-pointer">Lorem ipsum </td>
           <td class="italic px-[20px] py-[7px] cursor-pointer">1992</td>
@@ -18,7 +18,7 @@
       
       </tbody>
     </table>
-    <div class="flex flex-wrap mt-10 justify-center gap-[20px] sm:w-full">
+    <div class="flex flex-wrap mt-10 justify-center gap-[20px] sm:w-full *:dark:text-white">
       <div
         v-for="item in 5"
         :key="item"
@@ -30,7 +30,7 @@
         voluptates nemo!
       </div>
     </div>
-    <div class="images flex justify-center flex-wrap mt-10 gap-[20px] sm:w-full" >
+    <div class="images flex justify-center flex-wrap mt-10 gap-[20px] sm:w-full"  >
       <div
         class="image flex-auto w-[400px] max-h-[200px]"
         v-for="item in 5"
@@ -55,5 +55,5 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>
