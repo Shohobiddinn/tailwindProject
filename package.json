@@ -12,7 +12,10 @@
     "sass": "^1.69.7",
     "sass-loader": "^13.3.3",
     "vue": "^3.3.11",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue-star-rating": "^2.1.0",
+    "vue3-loading-shimmer": "^1.0.0",
+    "vue3-star-ratings": "^3.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

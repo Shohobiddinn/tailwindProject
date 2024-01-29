@@ -9,6 +9,11 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
+      path: '/user',
+      name: 'user',
+      component: () => import("../views/user.vue")
+    },
+    {
       path: '/',
       name: 'dashboard',
       component: () => import('../components/DashboardLayout.vue'),
@@ -21,6 +26,10 @@ const router = createRouter({
           component: () => import('../views/HomeView.vue')
         },
       ]
+    }, {
+      path: '/shimmer',
+      name: "Shimmer",
+      component:() => import("../views/Shimmer/shimmer.vue")
     }
   ]
 })
