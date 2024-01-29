@@ -11,6 +11,7 @@
   "dependencies": {
     "sass": "^1.69.7",
     "sass-loader": "^13.3.3",
+    "tw-elements": "^1.1.0",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",
     "vue-star-rating": "^2.1.0",
